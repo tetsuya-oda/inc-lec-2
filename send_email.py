@@ -38,9 +38,9 @@ def send_email(from_addr, to_addr, subject, body):
 
 
 if __name__ == '__main__':
-    from_addr = 'hogehoge@hoge.jp'
-    to_addr = 'hogehoge@hoge.jp'
-    subject = 'テスト'
-    body = 'テストメール'
+    from_addr = gmail_addr
+    to_addr = gmail_addr
+    subject = '知的ネットワークコンピューティング特論　第２回'
+    body = '無事動作しました。おめでとう！'
 
     send_email(from_addr, to_addr, subject, body)
